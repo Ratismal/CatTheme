@@ -28,6 +28,11 @@ code {
 .container-2OU7Cz,
 .content form,
 .members-1998pB,
+.messages,
+.messages-wrapper,
+.guildsWrapper-5TJh6A,
+.chat,
+.content,
 .theme-dark .title-qAcLxz,
 .messagesWrapper-3lZDfY,
 .channel-members,
@@ -46,16 +51,16 @@ code {
 .theme-dark .chat-3bRxxu form {
   background: transparent !important; }
 
-.messages-3amgkR::-webkit-scrollbar {
+.messages::-webkit-scrollbar {
   width: 10px !important; }
 
-.messages-3amgkR::-webkit-scrollbar-track {
+.messages::-webkit-scrollbar-track {
   display: none !important; }
 
-.messages-3amgkR::-webkit-scrollbar-thumb {
+.messages::-webkit-scrollbar-thumb {
   border: none !important; }
 
-.messages-3amgkR::-webkit-scrollbar-track-piece {
+.messages::-webkit-scrollbar-track-piece {
   display: none !important; }
 
 .typing-2GQL18 {
@@ -105,11 +110,11 @@ code {
     border: 3px solid #afa70e !important;
     box-shadow: 0 4px 0 #565b0d !important; }
 
-.divider-3gKybi {
+.divider {
   margin: 20px; }
-  .divider-3gKybi div, .divider-3gKybi::before {
+  .divider div, .divider::before {
     display: none; }
-  .divider-3gKybi span {
+  .divider span {
     display: block;
     width: 100%;
     text-align: center;
@@ -121,7 +126,7 @@ code {
     background: rgba(0, 0, 0, 0.5) !important;
     color: #fff !important;
     border-radius: 5px; }
-  .divider-3gKybi.dividerRed-MKoLlr span {
+  .divider.divider-red span {
     background: rgba(255, 0, 0, 0.15) !important; }
 
 .channels-wrap div[class^='contentHoveredText'],
@@ -174,9 +179,9 @@ code {
   background: rgba(0, 0, 0, 0.4) !important;
   box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.19), 0 0 6px 6px rgba(0, 0, 0, 0.23) !important;
   flex-direction: initial; }
-  .guildsWrapper-5TJh6A .scrollerWrap-1IAIlv {
+  .guildsWrapper-5TJh6A .scroller-wrap {
     width: 176px !important; }
-    .guildsWrapper-5TJh6A .scrollerWrap-1IAIlv::-webkit-scrollbar {
+    .guildsWrapper-5TJh6A .scroller-wrap::-webkit-scrollbar {
       display: none; }
   .guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ:first-child {
     margin: 10px auto 3px auto; }
@@ -264,5 +269,5 @@ code {
       animation: fadein .5s;
       animation-fill-mode: forwards; }
 
-.chat-3bRxxu .content-yTz4x3 {
+.chat .content {
   padding-right: 100px; }
