@@ -7,7 +7,7 @@ gulp.task('sass', function () {
     gulp.src('src/*.scss')
         .pipe(sass())
         .pipe(gulp.dest(function (f) {
-            return path.join(f.base, '..', 'docs', 'dist');
+            return path.join(f.base, '..', 'dist');
         }))
 });
 
