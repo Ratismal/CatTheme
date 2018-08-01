@@ -1,0 +1,31 @@
+#{$sMembersWrap} {
+    position: absolute !important;
+    right: -150px;
+    height: 100%;
+    margin-left: 100%;
+    transition: 2s;
+    background: rgba(0, 0, 0, 0);
+    z-index: 1 !important;
+    #{$sMembersMember} {
+        #{$sMembersMemberInner} {
+            animation: fadeout 2s;
+            animation-fill-mode: forwards;
+        }
+    }
+    &:hover {
+        right: 0;
+        transition: .5s;
+        background: rgba(0, 0, 0, .3);
+        box-shadow: -10px 0 20px rgba(0, 0, 0, 0.19), -6px 0 6px rgba(0, 0, 0, 0.23) !important;
+        #{$sMembersMember} {
+            #{$sMembersMemberInner} {
+                animation: fadein .5s;
+                animation-fill-mode: forwards;
+            }
+        }
+    }
+}
+
+#{$sChat} #{$sContent} {
+    padding-right: 100px;
+}

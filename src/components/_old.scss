@@ -1,0 +1,117 @@
+// All of this stuff is OLD and DEPRECATED thx
+/* #region fonts */
+
+/* #endregion fonts*/
+
+/* #region chat-3bRxxu */
+
+.hljs {
+    color: rgb(200, 200, 200) !important;
+}
+
+.chat-3bRxxu .messagesWrapper-3lZDfY,
+#friends .friends-table {
+    box-shadow: inset 0px 0px 10px 5px rgba(0, 0, 0, 0.23);
+}
+
+#friends .friends-table {
+    margin-top: 0 !important;
+    padding-top: 8px !important;
+}
+
+.chat-3bRxxu .typing,
+.typing-2GQL18 {
+    background: transparent !important;
+}
+
+.divider::before,
+.divider div,
+.divider {
+    display: none;
+}
+
+.divider {
+    margin: 20px 0;
+}
+
+.divider span {
+    width: 100%;
+    text-align: center;
+    margin: 10px auto !important;
+    left: -10px;
+    padding: 5px 0 !important;
+    font-variant: small-caps !important;
+    text-transform: capitalize !important;
+    font-size: 1.1rem !important;
+    background: rgba(0, 0, 0, 0.5) !important;
+    color: #fff !important;
+}
+
+.divider-red span {
+    background: rgba(255, 0, 0, 0.15) !important;
+}
+
+.channel-textarea {
+    background: rgba(0, 0, 0, 0.5) !important;
+    border-radius: 5px;
+}
+
+.channel-textarea-inner {
+    border-radius: 5px;
+}
+
+/* #endregion chat-3bRxxu */
+
+/* #region avatars */
+
+.member.member-status>.avatar-small[style*='a_'] {
+    box-sizing: border-box;
+    border: 1.5px solid #afa70e !important;
+}
+
+.channel-textarea-autocomplete-inner .avatar-small[style*='a_']+.discord-tag:after,
+.channel-textarea-autocomplete-inner .avatar-small[style*='a_']+.username:after {
+    position: absolute;
+    width: 20px;
+    height: 15px;
+    margin-left: 5px;
+    content: ' ';
+    background: url(https://canary.discordapp.com/assets/65f0a0df5563e21de7b1aeeafaf31d78.svg);
+    background-size: 20px;
+}
+
+.channel.channel-voice:not(.collapsed) .avatar-small[style*='a_']+span:after {
+    position: absolute;
+    width: 20px;
+    height: 15px;
+    margin-top: 1.5px;
+    margin-left: 5px;
+    content: ' ';
+    background: url(https://canary.discordapp.com/assets/65f0a0df5563e21de7b1aeeafaf31d78.svg);
+    background-size: 20px;
+}
+
+.channel.channel-voice li.speaking .avatar-small[style*='a_'] {
+    border-color: #fc964b;
+}
+
+/** Set up animated transitions **/
+
+#app-mount {
+    background-size: cover;
+    transition: background 3s !important;
+}
+
+/* #endregion memberlist */
+
+.context-menu .item-group:nth-child(2) .item.item-subMenu {
+    display: none !important;
+}
+
+div[class*="attachmentInner"] {
+    overflow: visible;
+}
+
+.nameTag-m8r81H {
+    display: block;
+}

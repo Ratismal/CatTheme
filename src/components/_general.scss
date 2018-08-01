@@ -1,0 +1,39 @@
+*:not(code) {
+    font-family: 'ubuntu', sans-serif;
+}
+
+code *,
+code {
+    font-family: 'Pointfree', monospace;
+}
+
+.app {
+    background: rgba(0, 0, 0, 0.5) !important;
+}
+
+// todo: externalize all these class names
+#app-mount>div>div.app.flex-vertical.theme-dark>div.layers.flex-vertical.flex-spacer,
+#app-mount>div>div:nth-child(2)>div>div.layers.flex-vertical.flex-spacer,
+.chat-3bRxxu.flex-vertical.flex-spacer,
+.chat-3bRxxu .content-yTz4x3,
+.container-2OU7Cz,
+.content form,
+#{$sMembersMembers},
+.theme-dark .title-qAcLxz,
+.messagesWrapper-3lZDfY,
+.channel-members,
+.channels-wrap>div,
+.container-2lgZY8,
+.theme-dark .layer-3QrUeG,
+.theme-dark .layers-3iHuyZ,
+.theme-dark .layers,
+.theme-dark .layer,
+#friends,
+#friends .friends-table,
+#friends .friends-header,
+.layer-kosS71,
+.layers-20RVFW,
+.theme-dark .chat-3bRxxu,
+.theme-dark .chat-3bRxxu form {
+    background: transparent !important;
+}

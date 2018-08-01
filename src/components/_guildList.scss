@@ -1,0 +1,84 @@
+#{$sGuildsWrapper} {
+    width: 150px !important;
+    background: rgba(0, 0, 0, 0.4) !important;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.19), 0 0 6px 6px rgba(0, 0, 0, 0.23) !important;
+    flex-direction: initial;
+    #{$sScrollerWrap} {
+        width: 176px !important;
+        &::-webkit-scrollbar {
+            display: none;
+        }
+    }
+    #{$sGuildsGuilds} #{$sGuildsGuild}:first-child {
+        margin: 10px auto 3px auto;
+    }
+    #{$sGuildsDms} {
+        background: rgba(255, 255, 255, 0.1) !important;
+        border-radius: 5px;
+        width: 80%;
+        padding: 5px !important;
+    }
+    #{$sGuildsGuilds},
+    #{$sGuildsDms} {
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        flex-flow: row wrap;
+        align-content: flex-start;
+        #{$sGuildsFriendsOnline} {
+            display: block;
+            text-align: center;
+            flex-grow: 1;
+            width: 100%;
+            margin: 2px 0;
+        }
+        #{$sGuildsGuild} {
+            margin: 5px;
+            padding: 0;
+            flex-grow: 0;
+            &#{$sGuildsUnread} {
+                &::before {
+                    background: rgba(0, 200, 200, 0.5) !important;
+                    width: 30px !important;
+                    height: 20px !important;
+                    border-radius: 50px;
+                    margin-top: -10px !important;
+                    z-index: -99 !important;
+                }
+                &:nth-of-type(2n - 1)::before {
+                    left: 25px;
+                }
+                &:nth-of-type(2n)::before {
+                    left: -5px;
+                }
+            }
+            &#{$sGuildsSelected} {
+                &::before {
+                    &:not(#{$sGuildsUnread}) {
+                        background: rgba(255, 255, 255, 0.9) !important;
+                    }
+                    width: 30px !important;
+                    height: 50px !important;
+                    border-radius: 10px;
+                    margin-top: -25px !important;
+                    z-index: -99 !important;
+                }
+                &:nth-of-type(2n - 1)::before {
+                    left: 30px;
+                }
+                &:nth-of-type(2n)::before {
+                    left: -10px;
+                }
+            }
+        }
+        &::-webkit-scrollbar {
+            display: none;
+        }
+        #{$sGuildsSeparator} {
+            display: none;
+            &::after {
+                display: none;
+            }
+        }
+    }
+}

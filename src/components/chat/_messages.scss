@@ -1,0 +1,55 @@
+#{$sMessageContainer} {
+    padding: 10px 0 !important;
+    border: 0 ! important;
+    #{$sMessage} {
+        margin: 0;
+        &:first-child #{$sMessageContent} {
+            border-top-right-radius: 5px;
+            border-top-left-radius: 5px;
+            padding-top: 15px;
+        }
+        #{$sMessageHeader} {
+            margin-left: 20px;
+        }
+        #{$sMessageContent} {
+            background: rgba(16, 48, 48, 0.4) !important;
+            border-radius: 5px;
+            padding: 2px 15px;
+            margin: 0 20px 0 100px;
+            box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1), 0 2px 3px rgba(0, 0, 0, 0.12);
+            transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+            border-radius: 0;
+            #{$sMessageMarkup} {
+                pre {
+                    border: 0 !important;
+                    line-height: 20px !important;
+                    background: rgba(16, 48, 48, 0.8) !important;
+                    border-radius: 5px;
+                    code {
+                        background: rgba(0, 0, 0, 0) !important;
+                        border: 0 !important;
+                        line-height: 20px !important;
+                    }
+                }
+            }
+        }
+        &:last-of-type #{$sMessageContent} {
+            padding-bottom: 15px;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+    }
+}
+
+#{$sLargeAvatar} {
+    margin-top: 2px !important;
+    height: 65px;
+    width: 65px;
+    background-size: cover;
+    border-radius: 10px;
+    &[style*='a_'] {
+        box-sizing: border-box;
+        border: 3px solid #afa70e !important;
+        box-shadow: 0 4px 0 #565b0d !important;
+    }
+}

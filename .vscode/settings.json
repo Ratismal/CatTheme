@@ -1,0 +1,5 @@
+{
+    "beautify.options": {
+        "newline_between_rules": true
+    }
+}

@@ -1,0 +1,23 @@
+#{$sDivider} {
+    margin: 20px;
+    div,
+    &::before {
+        display: none;
+    }
+    span {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin: 10px auto !important;
+        padding: 7px 0 !important;
+        font-variant: small-caps !important;
+        text-transform: capitalize !important;
+        font-size: 1.1rem !important;
+        background: rgba(0, 0, 0, 0.5) !important;
+        color: #fff !important;
+        border-radius: 5px;
+    }
+    &#{$sDividerRed} span {
+        background: rgba(255, 0, 0, 0.15) !important;
+    }
+}

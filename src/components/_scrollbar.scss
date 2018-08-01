@@ -1,0 +1,14 @@
+#{$sMessages} {
+    &::-webkit-scrollbar {
+        width: 10px !important;
+    }
+    &::-webkit-scrollbar-track {
+        display: none !important;
+    }
+    &::-webkit-scrollbar-thumb {
+        border: none !important;
+    }
+    &::-webkit-scrollbar-track-piece {
+        display: none !important;
+    }
+}
