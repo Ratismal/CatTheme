@@ -5,7 +5,7 @@ It's cat's personal theme for discord!
 ## Usage
 
 ```
-@import url("https://cdn.rawgit.com/Ratismal/CatTheme/master/dist/cat_theme.css");
+@import url("https://rawgit.com/Ratismal/CatTheme/master/dist/cat_theme.css");
 ```
 
 If you can't figure out how to do that, then this theme is not for you.
