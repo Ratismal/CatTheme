@@ -28,11 +28,11 @@ code {
 .container-2OU7Cz,
 .content form,
 .members-1998pB,
-.messages,
+.messages-3amgkR,
 .messages-wrapper,
 .guildsWrapper-5TJh6A,
-.chat,
-.content,
+.chat-3bRxxu,
+.content-yTz4x3,
 .theme-dark .title-qAcLxz,
 .messagesWrapper-3lZDfY,
 .channel-members,
@@ -51,16 +51,16 @@ code {
 .theme-dark .chat-3bRxxu form {
   background: transparent !important; }
 
-.messages::-webkit-scrollbar {
+.messages-3amgkR::-webkit-scrollbar {
   width: 10px !important; }
 
-.messages::-webkit-scrollbar-track {
+.messages-3amgkR::-webkit-scrollbar-track {
   display: none !important; }
 
-.messages::-webkit-scrollbar-thumb {
+.messages-3amgkR::-webkit-scrollbar-thumb {
   border: none !important; }
 
-.messages::-webkit-scrollbar-track-piece {
+.messages-3amgkR::-webkit-scrollbar-track-piece {
   display: none !important; }
 
 .typing-2GQL18 {
@@ -110,11 +110,11 @@ code {
     border: 3px solid #afa70e !important;
     box-shadow: 0 4px 0 #565b0d !important; }
 
-.divider {
+.divider-3gKybi {
   margin: 20px; }
-  .divider div, .divider::before {
+  .divider-3gKybi div, .divider-3gKybi::before {
     display: none; }
-  .divider span {
+  .divider-3gKybi span {
     display: block;
     width: 100%;
     text-align: center;
@@ -126,7 +126,7 @@ code {
     background: rgba(0, 0, 0, 0.5) !important;
     color: #fff !important;
     border-radius: 5px; }
-  .divider.divider-red span {
+  .divider-3gKybi.dividerRed-MKoLlr span {
     background: rgba(255, 0, 0, 0.15) !important; }
 
 .channels-wrap div[class^='contentHoveredText'],
@@ -269,5 +269,5 @@ code {
       animation: fadein .5s;
       animation-fill-mode: forwards; }
 
-.chat .content {
+.chat-3bRxxu .content-yTz4x3 {
   padding-right: 100px; }
