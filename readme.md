@@ -18,3 +18,17 @@ If you can't figure out how to do that, then this theme is not for you.
 - No public support will be provided for using this theme, as this theme is solely designed with Cat in mind and isn't exactly targetted at the general public. Have an issue? I don't want to hear it.
 
 If you can't or don't agree with these, then don't use this theme kthx.
+
+## FAQ
+
+### How do I install this?
+
+ok
+
+### Why are you even bothering?
+
+ok
+
+### Help! I don't like your theme? It's WEIRD!!!
+
+ok
