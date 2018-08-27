@@ -73,13 +73,15 @@ code {
   border-bottom: 1px solid rgba(255, 255, 255, 0.04) !important; }
   .containerCozy-jafyvG .messageCozy-2JPAPA {
     margin: 0; }
+    .containerCozy-jafyvG .messageCozy-2JPAPA time {
+      color: rgba(255, 255, 255, 0.4); }
     .containerCozy-jafyvG .messageCozy-2JPAPA .headerCozyMeta-rdohGq {
       margin-left: 15px; }
     .containerCozy-jafyvG .messageCozy-2JPAPA .contentCozy-3XX413 {
-      padding-top: 5px;
+      padding: 1px 0;
       margin-left: 95px;
       padding-left: 10px;
-      border-left: 1px solid rgba(255, 255, 255, 0.1); }
+      border-left: 3px solid rgba(255, 255, 255, 0.1); }
   .containerCozy-jafyvG .divider-32i8lo {
     display: none; }
 
