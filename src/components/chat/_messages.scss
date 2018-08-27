@@ -29,6 +29,9 @@
     width: 65px;
     background-size: cover;
     border-radius: 10px;
+    box-sizing: border-box;
+    border: 3px solid #969696 !important;
+    box-shadow: 0 4px 0 rgb(94, 94, 94) !important;
     &[style*='a_'] {
         box-sizing: border-box;
         border: 3px solid #afa70e !important;
