@@ -46,6 +46,9 @@ code {
 .tooltip-black {
     background: rgba(12, 114, 87, 0.9) !important;
 }
-.tooltip-black::after {
+.tooltip-black.tooltip-top::after {
     border-top-color: rgba(12, 114, 87, 0.9) !important;
+}
+.tooltip-black.tooltip-right::after {
+    border-right-color: rgba(12, 114, 87, 0.9) !important;    
 }
