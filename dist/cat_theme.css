@@ -18,7 +18,7 @@ code *,
 code {
   font-family: 'Pointfree', monospace; }
 
-.app {
+.app, .app-19_DXt {
   background: rgba(0, 0, 0, 0.5) !important; }
 
 #app-mount > div > div.app.flex-vertical.theme-dark > div.layers.flex-vertical.flex-spacer,
@@ -51,14 +51,14 @@ code {
 .theme-dark .chat-3bRxxu form {
   background: transparent !important; }
 
-.tooltip-black {
+.tooltip-1OS-Ti.black-2bmmnj {
   background: rgba(12, 114, 87, 0.9) !important; }
-
-.tooltip-black.tooltip-top::after {
-  border-top-color: rgba(12, 114, 87, 0.9) !important; }
-
-.tooltip-black.tooltip-right::after {
-  border-right-color: rgba(12, 114, 87, 0.9) !important; }
+  .tooltip-1OS-Ti.black-2bmmnj.top-1pTh1F::after {
+    border-top-color: rgba(12, 114, 87, 0.9) !important; }
+  .tooltip-1OS-Ti.black-2bmmnj.right-KM_vfY::after {
+    border-right-color: rgba(12, 114, 87, 0.9) !important; }
+  .tooltip-1OS-Ti.black-2bmmnj.bottom-19kp6S::after {
+    border-bottom-color: rgba(12, 114, 87, 0.9) !important; }
 
 .messages-3amgkR::-webkit-scrollbar {
   width: 10px !important; }
