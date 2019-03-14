@@ -43,7 +43,7 @@
                     height: 20px !important;
                     border-radius: 50px;
                     margin-top: -10px !important;
-                    z-index: -99 !important;
+                    z-index: 0 !important;
                 }
                 &:nth-of-type(2n - 1)::before {
                     left: 25px;
@@ -61,7 +61,7 @@
                     height: 50px !important;
                     border-radius: 10px;
                     margin-top: -25px !important;
-                    z-index: -99 !important;
+                    z-index: 0 !important;
                 }
                 &:nth-of-type(2n - 1)::before {
                     left: 30px;
