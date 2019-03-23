@@ -217,9 +217,13 @@ code {
         border-radius: 50px;
         margin-top: -10px !important;
         z-index: 0 !important; }
-      .wrapper-1Rf91z .scroller-2TZvBN .container-1aNBdK.unread-2OHH1w::before, .wrapper-1Rf91z .scroller-2TZvBN .container-2td-dC.unread-2OHH1w::before,
-      .wrapper-1Rf91z .dms-rcsEnV .container-1aNBdK.unread-2OHH1w::before,
-      .wrapper-1Rf91z .dms-rcsEnV .container-2td-dC.unread-2OHH1w::before {
+      .wrapper-1Rf91z .scroller-2TZvBN .container-1aNBdK.unread-2OHH1w:nth-of-type(2n - 1)::before, .wrapper-1Rf91z .scroller-2TZvBN .container-2td-dC.unread-2OHH1w:nth-of-type(2n - 1)::before,
+      .wrapper-1Rf91z .dms-rcsEnV .container-1aNBdK.unread-2OHH1w:nth-of-type(2n - 1)::before,
+      .wrapper-1Rf91z .dms-rcsEnV .container-2td-dC.unread-2OHH1w:nth-of-type(2n - 1)::before {
+        left: 25px; }
+      .wrapper-1Rf91z .scroller-2TZvBN .container-1aNBdK.unread-2OHH1w:nth-of-type(2n)::before, .wrapper-1Rf91z .scroller-2TZvBN .container-2td-dC.unread-2OHH1w:nth-of-type(2n)::before,
+      .wrapper-1Rf91z .dms-rcsEnV .container-1aNBdK.unread-2OHH1w:nth-of-type(2n)::before,
+      .wrapper-1Rf91z .dms-rcsEnV .container-2td-dC.unread-2OHH1w:nth-of-type(2n)::before {
         left: -5px; }
       .wrapper-1Rf91z .scroller-2TZvBN .container-1aNBdK.selected-nT-gM3::before, .wrapper-1Rf91z .scroller-2TZvBN .container-2td-dC.selected-nT-gM3::before,
       .wrapper-1Rf91z .dms-rcsEnV .container-1aNBdK.selected-nT-gM3::before,
@@ -233,9 +237,13 @@ code {
         .wrapper-1Rf91z .dms-rcsEnV .container-1aNBdK.selected-nT-gM3::before:not(.unread-2OHH1w),
         .wrapper-1Rf91z .dms-rcsEnV .container-2td-dC.selected-nT-gM3::before:not(.unread-2OHH1w) {
           background: rgba(255, 255, 255, 0.9) !important; }
-      .wrapper-1Rf91z .scroller-2TZvBN .container-1aNBdK.selected-nT-gM3::before, .wrapper-1Rf91z .scroller-2TZvBN .container-2td-dC.selected-nT-gM3::before,
-      .wrapper-1Rf91z .dms-rcsEnV .container-1aNBdK.selected-nT-gM3::before,
-      .wrapper-1Rf91z .dms-rcsEnV .container-2td-dC.selected-nT-gM3::before {
+      .wrapper-1Rf91z .scroller-2TZvBN .container-1aNBdK.selected-nT-gM3:nth-of-type(2n - 1)::before, .wrapper-1Rf91z .scroller-2TZvBN .container-2td-dC.selected-nT-gM3:nth-of-type(2n - 1)::before,
+      .wrapper-1Rf91z .dms-rcsEnV .container-1aNBdK.selected-nT-gM3:nth-of-type(2n - 1)::before,
+      .wrapper-1Rf91z .dms-rcsEnV .container-2td-dC.selected-nT-gM3:nth-of-type(2n - 1)::before {
+        left: 30px; }
+      .wrapper-1Rf91z .scroller-2TZvBN .container-1aNBdK.selected-nT-gM3:nth-of-type(2n)::before, .wrapper-1Rf91z .scroller-2TZvBN .container-2td-dC.selected-nT-gM3:nth-of-type(2n)::before,
+      .wrapper-1Rf91z .dms-rcsEnV .container-1aNBdK.selected-nT-gM3:nth-of-type(2n)::before,
+      .wrapper-1Rf91z .dms-rcsEnV .container-2td-dC.selected-nT-gM3:nth-of-type(2n)::before {
         left: -10px; }
     .wrapper-1Rf91z .scroller-2TZvBN::-webkit-scrollbar,
     .wrapper-1Rf91z .dms-rcsEnV::-webkit-scrollbar {
